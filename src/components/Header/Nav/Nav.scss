@@ -1,0 +1,31 @@
+.nav_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  .nav_left {
+    display: flex;
+    column-gap: 40px;
+    a {
+      color: white;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 150%;
+    }
+  }
+  .nav_right {
+    display: flex;
+    column-gap: 40px;
+    .search {
+      display: flex;
+      align-items: center;
+      column-gap: 16px;
+    }
+    .inter {
+      display: flex;
+      column-gap: 30px;
+    }
+  }
+}
